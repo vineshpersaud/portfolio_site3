@@ -1,0 +1,56 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+#navbar li{
+    display: inline;
+    float: right;
+    padding-right: 25px;
+    font-size: 100%;
+}
+
+#navbar{
+    width: 100%;
+    position: absolute;
+    z-index: 3;
+}
+
+#navbar li{
+    display: inline;
+    float: right;
+    margin: 15px;
+    padding-right: 25px;
+    font-size: 130%;
+    color: 	#9733EE;
+  
+  }
+  
+  #navbar{
+    width: 100%;
+  }
+  
+  #message{
+    position:relative;
+    padding-top: 15px;
+    padding-left: 10%;
+    font-size: 185%;
+    color: 9733EE;
+    position: absolute;
+    z-index: 3;
+  }
+  #message h1{
+  
+  }
+  
+  .highlight{
+    color: #E4334C;
+  }
+  
+  .navlink{
+    text-decoration: none;
+    color: 	#9733EE;
+  }
+  
+  .navlink:hover{
+    color: #E4334C;
+  }
