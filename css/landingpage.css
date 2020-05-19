@@ -21,7 +21,7 @@
     margin: 15px;
     padding-right: 25px;
     font-size: 130%;
-    color: 	#9733EE;
+    color: 	azure;
   
   }
   
@@ -31,15 +31,16 @@
   
   #message{
     position:relative;
-    padding-top: 15px;
+    padding-top: 105px;
     padding-left: 10%;
     font-size: 185%;
     color: 9733EE;
     position: absolute;
     z-index: 3;
+    color: azure;
   }
   #message h1{
-  
+    
   }
   
   .highlight{
@@ -48,9 +49,10 @@
   
   .navlink{
     text-decoration: none;
-    color: 	#9733EE;
+    color: 	azure;
+    margin-right: 14px;
   }
   
   .navlink:hover{
-    color: #E4334C;
+    color: #9733EE;
   }
