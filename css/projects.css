@@ -1,7 +1,8 @@
 #projects{
   z-index: 5;
   height: 800px;
-  background-color: #9733EE;
+  background-color: #e43d2a;
+  color: azure;
 }
 
 #title{
@@ -15,11 +16,14 @@
   margin-top: 2px;
   background-color: azure;
   float: left;
-  width: 370px;
-  height: 525px;
+  width: 350px;
+  height: 475px;
   text-align: center;
   filter:  grayscale(25%);
+  color: #000;
+  
 }
+
 
 
 .project:hover{
