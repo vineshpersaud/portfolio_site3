@@ -2,7 +2,8 @@
   z-index: 5;
   height: 800px;
   background-color: #e43d2a;
-  color: azure;
+  margin: 0 auto;
+  
 }
 
 #title{
@@ -16,14 +17,11 @@
   margin-top: 2px;
   background-color: azure;
   float: left;
-  width: 350px;
-  height: 475px;
+  width: 370px;
+  height: 505px;
   text-align: center;
   filter:  grayscale(25%);
-  color: #000;
-  
 }
-
 
 
 .project:hover{
@@ -65,32 +63,39 @@
   transform: scale(1.1);
 }
 
+#project_list{
+  width: 100%;
+  padding-left: 200px;
+}
+
 @media only screen and (max-width : 1200px) {
     #projects{
       height: 2460px;
     }
     .project {
-      width: 80%;
+      width: 725px;
       margin-left: 10%;
-      height: 725px;
+      height: 605px;
+      margin-bottom: 20px;
     }
     .project img{
-      width: 60%;
+      width: 100%;
+      height: auto;
 
     }
 
 @media only screen and (max-width : 750px) {
       #projects{
-        height: 1750px;
+        height: 2250px;
       }
       .project {
         width: 80%;
         margin-left: 10%;
         height: 500px;
-        margin-bottom: 2px;
+        margin-bottom: 20px;
       }
       .project img{
-        width: 60%;
+        width: 100%;
 
       }
 }
