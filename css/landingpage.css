@@ -35,7 +35,7 @@
     padding-left: 10%;
     font-size: 185%;
     color: 9733EE;
-    position: absolute;
+    
     z-index: 3;
     color: azure;
   }
@@ -56,4 +56,17 @@
   
   .navlink:hover{
     color: #9733EE;
+  }
+
+  #social_media img{
+    width: 32px;
+    margin-right: 40px;
+
+  }
+
+  #social_media{
+    margin-top: 70px;
+    position: relative;
+    z-index: 3;
+    text-align: center;
   }
