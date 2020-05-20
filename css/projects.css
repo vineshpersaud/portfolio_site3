@@ -20,8 +20,6 @@
   margin-top: 2px;
   margin-bottom: 25px;
   width: 320px;
-  height: 505px;
-  text-align: center;
   background-color: #e43d2a;
 }
 
@@ -30,30 +28,42 @@
 
 .project_img{
   border-radius: 25px;
-  margin-top: 20px;
+  margin-top: 6px;
   width :100%;
-  height: 33%;
+  height: 175px;
 }
 
 .codeused{
   margin-top: 2px;
-  margin-bottom: 20px;
+  margin-left: 12px;
+  font-size: 14px;
 }
 .project a{
   text-decoration: none;
 }
 .project h1{
   font: 32px;
-  text-align: left;
+  text-align: center;
 }
 
 
 
 #project_list{
-  
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+}
+
+.project_links{
+  display: flex;
+  justify-content: left;
+  margin-left: 12px;
+}
+
+.project_links img{
+  width: 24px;
+  margin-right: 5px;
+  margin-left: 5px;
 }
 
 .project_description{
