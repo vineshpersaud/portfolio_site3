@@ -35,8 +35,9 @@
 
 .codeused{
   margin-left: 12px;
-  font-size: 14px;
- margin-top: -3px;
+  font-size: 13px;
+  margin-top: -3px;
+  color: rgb(141, 213, 117);
 }
 .project a{
   text-decoration: none;
@@ -74,7 +75,7 @@
 
 .stack_box{
   display: block;
-  background-color: rgb(141, 209, 245);
+  background-color: rgba(69, 47, 80, 0.4);
   border-radius: 5px;
   padding: 1px;
   padding-right: 3px;
@@ -83,6 +84,7 @@
   float: left;
   margin-top: 7px;
   margin-right: 6px;
+  font-family: 'Share Tech Mono', monospace;
 }
 
 @media only screen and (max-width : 1200px) {
