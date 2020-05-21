@@ -1,0 +1,17 @@
+#skills{
+    height: 600px;
+    background-color: royalblue ;
+    margin-top: -30px;
+}
+
+#skill_list{
+    margin-top: 30px;
+}
+.skill_item {
+    margin-left: 32px;
+}
+
+.skill_item img{
+    width: 32px;
+    margin-right: 32px;
+}

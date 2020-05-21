@@ -72,7 +72,7 @@ window.lavaAnimation = (function () {
           0.2 * t.height + Math.random() * t.height * 0.6
         )),
         //make blob
-        (this.size = t.wh / 17 + (Math.random() * (h - i) + i) * (t.wh / 15)),
+        (this.size = t.wh / 9.5 + (Math.random() * (h - i) + i) * (t.wh / 15)),
         (this.width = t.width),
         (this.height = t.height);
     };
