@@ -11,7 +11,8 @@
      }
      #about_me{
          margin-top: 20px;
-         width: 80%;
+         margin-left: 0px;
+         width: 70%;
      }
      .skill_item{
         float: left;
@@ -30,11 +31,14 @@
          display: inline;
          text-align: center;
      }
+     #skill_item img{
+         margin-right: 0px;
+     }
 
      #me_image{
         margin-top: 40px;
         width: 300px;
-        margin-bottom: 0px;
+        margin-bottom: 40px;
     }
     #about_me{
         margin-top: 40px;
