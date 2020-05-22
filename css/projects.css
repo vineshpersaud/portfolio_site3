@@ -5,6 +5,7 @@
   background-color: #e43d2a;
   margin: 0 auto;
   color: azure;
+  padding-bottom: 80px;
 }
 
 
@@ -42,9 +43,8 @@
 .project a{
   text-decoration: none;
 }
-.project h1{
-  font: 32px;
-  text-align: center;
+.project h3{
+  margin-bottom: 0px;
 }
 
 
