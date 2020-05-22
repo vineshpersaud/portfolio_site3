@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/landingpage.css">
     <link rel="stylesheet" href="./css/projects.css">
     <link rel="stylesheet" href="./css/skills.css">
+    <link rel="stylesheet" href="./css/mobile.css">
     <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/d3js/5.12.0/d3.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -53,7 +54,7 @@
 
             <div class="project">
                 <h3>Chrome Extension for learn.co</h3>
-                <p class="project_description">Chrome extension for Flatiron schools website to remove sidebar and add darkmode.</p>
+                <p class="project_description">Chrome extension for Flatiron school's website which adds ability to remove sidebar for better focus on course work and add darkmode.</p>
                 <div class="project_links">
                     <a class="button" href="https://github.com/vineshpersaud/learn_co_chrome_extension" target="_blank"><img src="./images/icons/GitHub-Mark-32px.png" alt=""></a><br>
                     <a class="button" href="https://chrome.google.com/webstore/detail/flatiron-custom-view/epfjhipiodmljjbnfcfdoakcakchdcjm" target="_blank"><img src="./images/icons/link-32.png" alt=""></a>
@@ -69,10 +70,10 @@
 
             <div class="project">
                 <h3>Instagram Clone</h3>
-                <p class="project_description">Chrome extension for Flatiron schools website to remove sidebar and add darkmode.</p>
+                <p class="project_description">A CRUD web application based off of instagram. Includes account creation and ability for users to upload pictures and follow like and comment on pictures. </p>
                 <div class="project_links">
                     <a class="button" href="https://github.com/vineshpersaud/rails_insta" target="_blank"><img src="./images/icons/GitHub-Mark-32px.png" alt=""></a><br>
-                    <a class="button" href="#" target="_blank"><img src="./images/icons/link-32.png" alt=""></a>
+                    <!--<a class="button" href="#" target="_blank"><img src="./images/icons/link-32.png" alt=""></a>-->
                 </div>
                  <img class="project_img" src="./images/projects/rails_insta.png" alt="chrome extension Project screenshot">
                 <p class="codeused">
@@ -84,7 +85,7 @@
 
             <div class="project">
                 <h3>Imager</h3>
-                <p class="project_description">Lorem ipsum dolor sit amet consectetur adipisicing elit.Sint molestiae modi minima. </p>
+                <p class="project_description">A CRUD web application with a Ruby on Rails API backend and React frontend. Imager is a photo hosting website based on imgur.com. </p>
                 <div class="project_links">
                     <a class="button" href="https://github.com/vineshpersaud/imager" target="_blank"><img src="./images/icons/GitHub-Mark-32px.png" alt=""></a><br>
                     <a class="button" href="https://www.youtube.com/watch?v=_gmnU2sOwoU" target="_blank"><img src="./images/icons/link-32.png" alt=""></a>
@@ -102,14 +103,14 @@
     
             <div class="project">
                 <h3>Event Budget Planner</h3>
-                <p class="project_description">Lorem ipsum dolor sit amet consectetur adipisicing elit.Sint molestiae modi minima?</p>
+                <p class="project_description">A CRUD web application for planning events. Users can sign up for a account or login using Facebook OAuth. Users can plan event budget and guest list.</p>
                 <div class="project_links">
                     <a class="button" href="https://github.com/vineshpersaud/budget_planner_rails_project/tree/jquery_frontend" target="_blank"><img src="./images/icons/GitHub-Mark-32px.png" alt=""></a><br>
                     <a class="button" href="https://event-budget-planner.herokuapp.com/" target="_blank"><img src="./images/icons/link-32.png" alt=""></a>
                 </div>
                 <img class="project_img" src="./images/projects/budget_planner.png" alt="Budget Planner screenshot">
                 <p class="codeused">
-                    <span class="stack_box">Ruby on Rails</span>
+                    <span class="stack_box">Ruby on Rails API</span>
                     <span class="stack_box">JQuery</span>
                     <span class="stack_box">Facebook OAuth</span>
                     <span class="stack_box">HTML</span>
@@ -119,7 +120,7 @@
     
             <div class="project">
                 <h3>Wish List</h3>
-                <p class="project_description">Lorem ipsum dolor sit amet consectetur adipisicing elit.Sint molestiae modi minima.</p>
+                <p class="project_description">A CRUD web application for creating wish list. A user can sign up and create a list of things they want.</p>
                 <div class="project_links">
                     <a class="button" href="https://github.com/vineshpersaud/wish_list_sinatra_project" target="_blank"><img src="./images/icons/GitHub-Mark-32px.png" alt=""></a><br>
                     <a class="button" href="https://wish-list-sinatra.herokuapp.com/" target="_blank"><img src="./images/icons/link-32.png" alt=""></a>
@@ -139,16 +140,20 @@
 
     <div id="skills">
         <div id="skill_list">
-            <p class="skill_item"><img src="./images/icons/Skills/icons8-ruby-programming-language-50-2.png" alt="">Ruby</p>
-            <p class="skill_item"><img src="./images/icons/Skills/icons8-python-50.png" alt="">Python</p>
-            <p class="skill_item"><img src="./images/icons/Skills/icons8-javascript-50.png" alt="">Javascript</p>
-            <p class="skill_item"><img src="./images/icons/Skills/iconfinder_ruby-on-rails_3069735.png" alt="">Rails</p>
-            <p class="skill_item"><img src="./images/icons/Skills/icons8-django-50.png" alt="">Django</p>
-            <p class="skill_item"><img src="./images/icons/Skills/icons8-react-native-50.png" alt="">React</p>
-            <p class="skill_item"><img src="./images/icons/Skills/icons8-jquery-50.png" alt="">JQuery</p>
-            <p class="skill_item"><img src="./images/icons/Skills/icons8-html-5-50.png" alt="">HTML</p>
-            <p class="skill_item"><img src="./images/icons/Skills/icons8-css3-50-2.png" alt="">CSS</p>
+            <p class="skill_item"><img src="./images/icons/Skills/icons8-ruby-programming-language-50-2.png" alt=""><span class="code_lang">Ruby</p>
+            <p class="skill_item"><img src="./images/icons/Skills/icons8-python-50.png" alt=""><span class="code_lang">Python</span></span></p>
+            <p class="skill_item"><img src="./images/icons/Skills/icons8-javascript-50.png" alt=""><span class="code_lang">Javascript</span></span></p>
+            <p class="skill_item"><img src="./images/icons/Skills/iconfinder_ruby-on-rails_3069735.png" alt=""><span class="code_lang">Rails</span></span></p>
+            <p class="skill_item"><img src="./images/icons/Skills/icons8-django-50.png" alt=""><span class="code_lang">Django</span></p>
+            <p class="skill_item"><img src="./images/icons/Skills/icons8-react-native-50.png" alt=""><span class="code_lang">React</span></p>
+            <p class="skill_item"><img src="./images/icons/Skills/icons8-jquery-50.png" alt=""><span class="code_lang">JQuery</span></p>
+            <p class="skill_item"><img src="./images/icons/Skills/icons8-html-5-50.png" alt=""><span class="code_lang">HTML</span></p>
+            <p class="skill_item"><img src="./images/icons/Skills/icons8-css3-50-2.png" alt=""><span class="code_lang">CSS</span></p>
         </div>
+
+        <img id="me_image" src="./images/undraw_developer_activity_bv83 (1).svg" alt="">
+
+        <p id="about_me">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit vel, blanditiis quisquam, ullam ex cupiditate praesentium neque beatae sit ut adipisci quidem quos cumque repudiandae quasi doloribus sapiente explicabo deleniti.</p>
     </div>
     
 </body>

@@ -1,0 +1,44 @@
+@media only screen and (max-width: 1330px) {
+    #skill_list{ 
+        margin-top: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+        width: 80%;
+     }
+
+     #me_image{
+         width: 400px;
+     }
+     #about_me{
+         margin-top: 20px;
+         width: 80%;
+     }
+     .skill_item{
+        float: left;
+        margin: 5px;
+
+     }
+
+  }
+
+  @media only screen and (max-width: 600px) {
+    .code_lang{
+        font-size: 0;
+     }
+     #skill_list{
+         margin-top: 30px;
+         display: inline;
+         text-align: center;
+     }
+
+     #me_image{
+        margin-top: 40px;
+        width: 300px;
+        margin-bottom: 0px;
+    }
+    #about_me{
+        margin-top: 40px;
+        width: 80%;
+    }
+
+  }

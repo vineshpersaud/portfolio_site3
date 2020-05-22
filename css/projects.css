@@ -70,7 +70,7 @@
 .project_description{
   color: rgb(216, 215, 215);
   text-align: left;
-  font-size: 13px;
+  font-size: 11px;
 }
 
 .stack_box{
@@ -88,32 +88,9 @@
 }
 
 @media only screen and (max-width : 1200px) {
-    #projects{
-      height: 2460px;
-    }
-    .project {
-      width: 725px;
-      
-      height: 705px;
-      margin-bottom: 20px;
-    }
-    .project_img{
-      width: 100%;
-      height: auto;
 
-    }
+
 
 @media only screen and (max-width : 750px) {
-      #projects{
-        height: 2250px;
-      }
-      .project {
-        width: 450px;
-        height: 530px;
-        margin-bottom: 20px;
-      }
-      .project_img{
-        width: 100%;
 
-      }
 }
