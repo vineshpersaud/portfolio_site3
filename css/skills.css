@@ -32,3 +32,12 @@
     width: 400px;
     margin-left: 50px;
 }
+.social_icon img:hover{
+    animation: pulse;
+    animation-duration: 2s;
+}
+
+.skill_item{
+    animation: animate__fadeInDownBig;
+    animation-duration: 2s;
+}
