@@ -56,7 +56,8 @@
   }
   
   .navlink:hover{
-    color: #9733EE;
+    color: #e43d2a;
+    font-size: 108%;
   }
 
   #social_media img{
