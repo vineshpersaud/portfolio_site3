@@ -68,5 +68,7 @@ body {
     visibility: hidden;
   }
 
-
+  html {
+    scroll-behavior: smooth;
+  }
 
