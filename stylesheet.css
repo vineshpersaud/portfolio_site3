@@ -36,6 +36,7 @@ body {
     position: relative;
     height: 40px;
     background: #130f40;
+    
   }
   
   #wave:before {
@@ -61,5 +62,4 @@ body {
     background-color: #130f40;
     left: -25%;
     top: -240px;
-    
   }

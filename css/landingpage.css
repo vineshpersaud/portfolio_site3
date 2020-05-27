@@ -71,3 +71,26 @@
     z-index: 3;
     text-align: center;
   }
+
+  #contact_button{
+    background-color: #e43d2a ;
+    padding: 8px;
+    color: #f5f6fa;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 48%;
+    position: relative;
+    font-size: 18px;
+}
+
+.contact_container{
+  position: relative;
+  z-index: 3;
+  
+}
+
+.animate__animated.animate__pulse {
+  --animate-delay: 0.5s;
+  --animate-duration: 3s;
+  animation-iteration-count: 20;
+}

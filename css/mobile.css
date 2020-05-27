@@ -1,4 +1,9 @@
 @media only screen and (max-width: 1330px) {
+    #message h1{
+        font-size: 44px;
+        margin-bottom: 50px;
+    }
+
     #skill_list{ 
         margin-top: 20px;
         margin-left: 0px;
@@ -19,6 +24,9 @@
         margin: 5px;
 
      }
+     #contact_button{
+        margin-left: 42%;
+    }
 
   }
 
@@ -60,8 +68,11 @@
 
 
     #message h1{
-        
         font-size: 40px;
+    }
+    #contact_button{
+        font-size: 14px;
+        margin-left: 38%;
     }
     
 
