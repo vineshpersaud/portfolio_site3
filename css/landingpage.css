@@ -10,7 +10,7 @@
 }
 
 #navbar{
-    width: 100%;
+    width: 95%;
     position: absolute;
     z-index: 5;
     margin-right: 10px;
@@ -26,9 +26,6 @@
   
   }
   
-  #navbar{
-    width: 100%;
-  }
   
   #message{
     position:relative;
